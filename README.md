@@ -42,4 +42,12 @@ Example (this could be 100% vanilla SSR output via a simple HTML template writte
 </my-toggler>
 ```
 
-**DOCS COMING SOON**
+Not only will this HTML-based web component simply "work" on any page you place it on, it'll do so whether or not Declarative Shadow DOM is available because it has a "polyfill" baked in!
+
+The `checked` prop is reflected as an attribute, so if you rendered this out instead as `<my-toggler checked>`, it would ensure the internal checkbox is checked as well as the `description` part shown bold. You can also add or remove the attribute after the fact, or you can use `togglerEl.checked = true` (or `false`) to change the state via JavaScript.
+
+Every defined part will work with an associated `(partname)Callback` you define any time that attribute/prop changes, and you can use parts to provide straightforward queryable connections within your shadow DOM. And because parts also are exposed as CSS shadow parts, they're easy to style as well.
+
+----
+
+**MORE DOCS COMING SOON**
