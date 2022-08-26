@@ -1,0 +1,25 @@
+{
+  "name": "impart-element",
+  "version": "0.1.0",
+  "description": "A base class for building purely server-driven declarative web components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc && cp src/*.js dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitefusionhq/impart-element.git"
+  },
+  "author": "Jared White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whitefusionhq/impart-element/issues"
+  },
+  "homepage": "https://github.com/whitefusionhq/impart-element#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
