@@ -1,13 +1,13 @@
 # Impart
 
-A base class for building purely server-driven declarative web components.
+A base class for building purely server-driven declarative web components. Under 900B (yes, you read that right: 0.9KB!) minified+compressed!
 
 Example (this could be 100% vanilla SSR output via a simple HTML template written in literally any language):
 
 ```js
 <my-toggler>
   <script type="module">
-    import { ImpartElement } from "https://unpkg.com/impart-element@0.1.0/dist/index.js"
+    import { ImpartElement } from "https://cdn.jsdelivr.net/npm/impart-element@0.1.0/dist/index.min.js"
 
     class Toggler extends ImpartElement {
       static observedAttributes = ["checked"]
