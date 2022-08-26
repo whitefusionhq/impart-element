@@ -7,7 +7,7 @@ Example (this could be 100% vanilla SSR output via a simple HTML template writte
 ```js
 <my-toggler>
   <script type="module">
-    import { ImpartElement } from "impart-element" // CDN link or via local server
+    import { ImpartElement } from "https://unpkg.com/impart-element@0.1.0/dist/index.js"
 
     class Toggler extends ImpartElement {
       static observedAttributes = ["checked"]
