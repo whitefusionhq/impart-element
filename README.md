@@ -1,5 +1,9 @@
 # Impart
 
+**UPDATE:** I decided to forgo this experiment in lieu of other ideas like [HTML Modules](https://github.com/whitefusionhq/esbuild-plugin-html-modules) and using a reactive template library such as [petite-vue](https://github.com/whitefusionhq/petite-element). But you may still find this intriguing!
+
+----
+
 A base class for building purely server-driven declarative web components. Under 900B (yes, you read that right: 0.9KB!) minified+compressed!
 
 Example (this could be 100% vanilla SSR output via a simple HTML template written in literally any language):
